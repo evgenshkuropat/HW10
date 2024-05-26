@@ -286,3 +286,30 @@ a {
     }
 
 }
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 768px;
+        .header__content-right{
+            display: none;
+        }
+        .content__banner-1{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+        .banner__description{
+            align-items: center;
+            margin: 0;
+            max-width: 100%;
+        }
+        .content__banner-three{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
