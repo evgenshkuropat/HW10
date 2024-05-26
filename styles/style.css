@@ -17,6 +17,11 @@ body {
     max-width: 1440px;
 }
 
+
+a {
+    color: black;
+}
+
 .header__content, .banner__description, .content__banner1-body-text, .content__banner1-spare-text, .banner__two-description, .banner__two-description-title, .content__page-description h2, .content__page-description p, .content__banner-three-global-title h2, .banner__three-item h3, .banner__three-item p {
     font-family: 'Graphik LC TT', sans-serif;
 }
