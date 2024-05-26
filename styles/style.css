@@ -139,7 +139,7 @@ body {
     font-weight: bold;
     width: 100%;
 }
-/* banner-2 start */
+/* banner2 start */
 
 .banner__two {
     background-color: #FF9C7D;
@@ -159,3 +159,89 @@ body {
     font-weight: bold;
     width: 100%;
 }
+
+/* banner2 end */
+
+/*  content page start  */
+
+.content__page {
+    margin: 150px 0;
+}
+
+.content__page-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__page-description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+}
+
+.content__page-description h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content__page-description p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content__page-description a {
+    font-weight: bold;
+}
+
+/*  content page end  */
+
+/* banner3 start */
+
+.content__banner-three {
+    background-color: rgba(255, 248, 228, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 30px;
+}
+
+.content__banner-three-global-title h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner__three-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner__three-item {
+    max-width: 330px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.banner__three-item h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.banner__three-item p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* banner3 end */
