@@ -27,6 +27,7 @@ a {
 }
 
 /* existing css */
+
 /*  statick settings start*/
 
 :root {
@@ -313,3 +314,19 @@ a {
 
     }
 }
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 576px;
+
+    }
+}
+
+@media (max-width: 578px) {
+    .container{
+        max-width: 100%;
+    }
+
+}
+
+/*  @media adaptation end  */
