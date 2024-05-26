@@ -1,0 +1,120 @@
+body {
+    font-family: 'Graphik LC TT', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header__content, .banner__description, .content__banner1-body-text, .content__banner1-spare-text, .banner__two-description, .banner__two-description-title, .content__page-description h2, .content__page-description p, .content__banner-three-global-title h2, .banner__three-item h3, .banner__three-item p {
+    font-family: 'Graphik LC TT', sans-serif;
+}
+
+/* existing css */
+/*  statick settings start*/
+
+:root {
+    --background-color-btn-white: #FFFFFF;
+    --color-btn-white: #000;
+    --background-color-btn-orange: #FF6336;
+    --color-btn-orange: #fff;
+}
+/*  statick settings    end*/
+
+/*  all settings    start   */
+
+.container {
+    max-width: 1290px;
+    /*min-width: 1290px;*/
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+.btn__black {
+    width: 140px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn__white {
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: var(--background-color-btn-white);
+    font-weight: bold;
+}
+
+.btn__orange {
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgba(255, 99, 54, 1);
+    background-color: var(--background-color-btn-orange);
+    font-weight: bold;
+}
+
+.btn__orange a {
+    color: #FFFFFF;
+}
+
+/* all settings end */
+
+/* header start */
+
+.header__content {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__content-left,
+.header__content-left ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header__content-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* header end */
+
+/* banner1 start */
+
+.banner__one {
+    margin: 150px 0;
+}
+
+.content__banner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__description {
+    margin: 35px auto;
+    max-width: 39%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner__description h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.content__banner1-body-text {
+    font-size: 28px;
+}
+
+.content__banner1-spare-text {
+    font-size: 15px;
+}
+
+/* banner1 end */
